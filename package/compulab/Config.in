@@ -1,6 +1,0 @@
-config BR2_PACKAGE_COMPULAB
-	bool "compulab"
-	select BR2_PACKAGE_HOST_IMX_MKIMAGE
-	select BR2_PACKAGE_HOST_UBOOT_TOOLS
-	help
-	  Tools and vendored firmware for Compulab hardware.
